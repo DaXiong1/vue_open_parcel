@@ -1062,3 +1062,13 @@ button.ui.button:focus {
   -webkit-transform: translate3d(-2.6rem, 0, 0);
   transform: translate3d(-2.6rem, 0, 0);
 }
+
+
+.map_scale_tools > .zoom_button--up {
+    background-image: url("../images/scale.png");
+    background-position: center 0;
+}
+.map_scale_tools > .zoom_button--down {
+    background-image: url("../images/scale.png");
+    background-position: center 30px;
+}
